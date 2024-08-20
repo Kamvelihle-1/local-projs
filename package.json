@@ -7,6 +7,8 @@
 		"start": "node myApp.js"
 	},
 	"dependencies": {
+		
+		"bcrypt": "^5.1.1",
 		"express": "^4.14.0",
 		"helmet": "3.21.3"
 	},
@@ -16,5 +18,9 @@
 		"express",
 		"freecodecamp"
 	],
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"@types/bcrypt": "^5.0.2",
+		"@types/helmet": "^0.0.48"
+	}
 }
